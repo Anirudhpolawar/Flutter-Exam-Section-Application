@@ -1,5 +1,7 @@
 # Flutter-Exam-Section-Application
-Windows application with flutter.Flutter Application to store and maintain exam section data in csv file. This repository contains examination directory where the flutter sub directory is stored.
+Windows application with flutter.
+
+Flutter Application to store and maintain exam section data in csv file. This repository contains examination directory where the flutter sub directory is stored.
 
 Application folder consist of the exe file which is the executable file for the windows.
 
