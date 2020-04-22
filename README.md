@@ -20,4 +20,7 @@ To Run the code open the command promt in the examination folder and run the com
 Requirement:
       flutter installation: https://www.youtube.com/watch?v=EDlywQeg5Vs
       window settings for the flutter : https://www.youtube.com/watch?v=1bkcq3lO900
+  
+  
+  To Run the code for android "flutter run andriod"
       
