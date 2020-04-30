@@ -1,6 +1,8 @@
 import 'package:examination/Models/Student.dart';
 import 'package:examination/Models/operations.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 class Profile extends StatefulWidget {
   @override
@@ -160,7 +162,7 @@ class _ProfileState extends State<Profile> {
           Container(
             width: 150,
             child: TextField(
-              keyboardType: TextInputType.number,
+             
               onChanged: (value){
                 print(value);
                 gr = int.parse(value);

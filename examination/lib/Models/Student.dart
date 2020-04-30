@@ -9,10 +9,11 @@ class Student
   List<String> subjectCodes;
   List<int> marks;
   List<int> grade;
-  List<int> subjectpoint;
+  List<int> subjectpoint; 
   int grnumber;
   int year;
   double cpi; 
+
 
   Student(String first,String last,String middle,int number,List<String> codes,List<int> marks,List<int> grade, List<int> subjectpoint,int gr,int year)
   {
@@ -35,7 +36,7 @@ class Student
      int sum = 0;
 
      this.subjectpoint.forEach((element) {
-       sum += element;
+       sum += element; 
      });
 
      int studentsum = 0; 

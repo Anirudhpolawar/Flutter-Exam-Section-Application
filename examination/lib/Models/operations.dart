@@ -46,7 +46,8 @@ class Operation
               else
                   grade.add(5);
           }
-          Student temp = new Student(datacsv[i][2], datacsv[i][3],datacsv[i][4], 5, codes, marks, grade, sp, gr, year);
+          gr = int.parse(datacsv[i][10].toString());
+          Student temp = new Student(datacsv[i][2], datacsv[i][3],datacsv[i][4], 5, codes, marks, grade, sp,gr, year);
           students.add(temp);
         }   
     }

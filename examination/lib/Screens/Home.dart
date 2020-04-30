@@ -1,5 +1,4 @@
 
-import 'package:examination/Screens/Add.dart';
 import 'package:examination/Screens/Change.dart';
 import 'package:examination/Screens/Profile.dart';
 import 'package:examination/Screens/Search.dart';
@@ -21,22 +20,6 @@ class _HomeState extends State<Home> {
        child:Column(
          children: <Widget>[
            Padding(padding: EdgeInsets.only(bottom:210)),
-          
-           RaisedButton(
-                      shape: new RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(18.0),
-                        side: BorderSide(color: Colors.blue)),
-                      onPressed: () {
-                        Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => Add()),
-                                );
-                      },
-                      color: Colors.blue,
-                      textColor: Colors.white,
-                      child: Text("Add new Entry".toUpperCase(),
-                        style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold)),
-                    ),
             RaisedButton(
                       shape: new RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(18.0),
